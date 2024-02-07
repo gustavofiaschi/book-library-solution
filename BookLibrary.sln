@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookLibrary", "BookLibrary\BookLibrary.csproj", "{1DF5340C-89CF-44C7-9594-1500A3B268F7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "FrontEnd\frontend.esproj", "{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF5340C-89CF-44C7-9594-1500A3B268F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF5340C-89CF-44C7-9594-1500A3B268F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF5340C-89CF-44C7-9594-1500A3B268F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF5340C-89CF-44C7-9594-1500A3B268F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8911079-9102-46FC-8D1F-8B23CD8E9FAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469A48EA-7A54-4D09-8989-F5FB885B2CAB}
+	EndGlobalSection
+EndGlobal
