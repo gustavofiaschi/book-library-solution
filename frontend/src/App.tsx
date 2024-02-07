@@ -65,7 +65,8 @@ function App() {
             <h1 id="tabelLabel">Book Library</h1>
             <section>
                 <div className="grid">
-                    <div className="row"><p>Search By:</p>
+                    <div className="row">
+                        <label>Search By:</label>
                         <select onChange={onChangeSelect}>
                             <option>Select</option>
                             {searches.map(s =>
@@ -75,7 +76,8 @@ function App() {
                     </div>
                 </div>                
                 <div className="grid">
-                    <div className="row"><p>Search Value:</p>
+                    <div className="row">
+                        <label>Search Value:</label>
                         <input id="searchValue" type="text" onChange={onChange} />
                     </div>
                 </div>
